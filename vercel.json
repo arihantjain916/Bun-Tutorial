@@ -3,7 +3,8 @@
     "name": "project-phase-1-API",
     "builds": [
         {
-            "src": "./src/index.ts"
+            "src": "index.js",
+            "use": "@vercel/node"
         }
     ],
     "routes": [
