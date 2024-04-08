@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "name": "project-phase-1-API",
+    "builds": [
+        {
+            "src": "./src/index.ts"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "./src/index.ts"
+        }
+    ]
+}
