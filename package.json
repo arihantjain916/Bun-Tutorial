@@ -6,6 +6,7 @@
     "dev": "bun run --watch src/index.ts",
     "build": "bun run build"
   },
+  "packageManager": "bun@1.0.3",
   "dependencies": {
     "elysia": "latest"
   },
@@ -15,8 +16,5 @@
   "module": "src/index.js",
   "bun-create": {
     "start": "bun run src/index.ts"
-  },
-  {
-    "packageManager": "bun@1.0.3"
-  },
+  }
 }
