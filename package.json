@@ -15,5 +15,8 @@
   "module": "src/index.js",
   "bun-create": {
     "start": "bun run src/index.ts"
-  }
+  },
+  {
+    "packageManager": "bun@1.0.3"
+  },
 }
